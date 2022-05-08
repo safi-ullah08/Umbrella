@@ -1,4 +1,4 @@
-# Umbrella (A cross chain NFT protocol ) 
+# Umbrella (A cross chain NFT protocol) 
 
 ## Introduction
 
@@ -13,7 +13,8 @@ The Vault will keep all the transaction data until the dispatcher is ready to re
 
 ## Why
 
-One immediate use case for this are games on the blockchain. This allows for games to communicate cross-chain. Game devs can just use the APIs we will provide (in the future) and build their games and not worry about integrating multiple blockchains. This can also allow users the freedom to earn cross chain.
+One immediate use case for this are games on the blockchain. This can allow for games to communicate cross-chain giving the ablity for multiple blockchains to be integrated into games with ease.
+
 
 
 ## Architecture
