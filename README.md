@@ -4,7 +4,7 @@
 
 Cross chain **interoperability** for NFTs is an important problem that needs addressing. This solution is an alternative from the cross chain bridge approach. The goal is to deploy contracts across multiple chains. These contracts will be referred to as rainDrops. Each rainDrop will have other siblings on other blockchains(EVM compliant for now). 
 
-Each rainDrop will share a singleton state. This state will be updated by the Orcal on a new event being triggered. All the smart contracts will then  receive this update by the dispatcher from a hot-wallet (a wallet that lives on the server).
+Each rainDrop will share a singleton state. This state will be updated by the Orcal on a new event being triggered. All the other rainDrops will then  receive this update by the dispatcher from a hot-wallet (a wallet that lives on the server).
 
 The Dispatcher will either make transactions or keep them in the Vault for later depending on network traffic or gas fee.
 
