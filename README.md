@@ -21,7 +21,7 @@ One immediate use case for this are games on the blockchain. This allows for gam
   1. Smart contracts(ERC-721s,ERC-721A and ERC-1155s)/ rainDrops that will deployed on testnets (Mumbai (Polygon), Rinkeby(Ethereum) and Fuji(Avalanche))
   2. Orcal (Probably either a Node.js or Rust App) that will listen to changes on these smart contracts
   3. Dispatcher will dispatch transactions when network fees are low on all network 
-  4. Vault will hold updates for "SYNCED'' smart contracts until the dispatcher is ready
+  4. Vault will hold updates for "SYNCING" rainDrops until the dispatcher is ready. It will maintain state for each rainDrop as SYNCED or SYNCING or FAILED
 
 
 ## Arena (Future Goals)
